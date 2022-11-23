@@ -39,6 +39,13 @@ html:focus-within {
     
 }
 
+
+/*
+author: MDN contributors (https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate/contributors.txt)
+source: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate
+*/
+
+
 .nav {
     display: flex;
     justify-content: space-evenly;
