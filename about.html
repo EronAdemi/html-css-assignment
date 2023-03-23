@@ -18,8 +18,8 @@
                 
                 <div class="left-url-item">
                     <ul>
-                        <li><a href="#">MEN</a></li>
-                        <li><a href="#">WOMEN</a></li>
+                     <li><a class="wishlist" href="#">MEN</a></li>
+                    <li><a class="wishlist" href="#">WOMEN</a></li>
                     </ul>
                 </div>
     
@@ -31,17 +31,26 @@
     
                 <div class="right-items">
                     <ul>
-                        <li><img src="./assets/account-icon.svg" alt="account-icon for rainy days"></li>
-                        <li><img src="./assets/wishlist-icon.svg" alt="wishlist-icon for rainy days"></li>
-                        <li><img src="./assets/checkout-bag.svg" width="38px" height="38px" alt="checkout-icon for rainy days"></li>
+                         <li ><img class="wishlist" src="./assets/account-icon.svg" alt="account-icon for rainy days"></li>
+                    <li ><img class="wishlist" src="./assets/wishlist-icon.svg" alt="wishlist-icon for rainy days"></li>
+                        <li><img class="wishlist" src="./assets/checkout-bag.svg" width="38px" height="38px" alt="checkout-icon for rainy days"></li>
                     </ul>
                     
                 </div>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+               
+      <div id="menuToggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+              <a href="./index.html"><li>Home</li></a>
+              <a href="./cart.html"><li>Cart</li></a>
+              <a href="./about.html"><li>About</li></a>
+            </ul>
+          </div>
             </nav>
         </header>
 
@@ -55,14 +64,14 @@
                 </div>
                 <div class="contact-us">
                     <form >
-                        <label type="text">Name:</label>
-                        <input type="text" placeholder="Enter your name">
+                        <label  type="text">Name:</label>
+                        <input required type="text" placeholder="Enter your name">
                         <label type="text">Last Name:</label>
-                        <input type="text" placeholder="Enter your last name">
-                        <label type="text">Email:</label>
-                        <input type="email" placeholder="Enter your E-mail">
+                        <input required type="text" placeholder="Enter your last name">
+                        <label type="email">Email:</label>
+                        <input required type="email" placeholder="Enter your E-mail">
                         <label type="text">Phone:</label>
-                        <input type="number" placeholder="Enter your phone">
+                        <input required type="number" placeholder="Enter your phone">
                         <button>Submit</button>
                     </form>
                 </div>
@@ -83,9 +92,9 @@
                 <div class="list2">
                     <h1>NEED HELP?</h1>
                     <ul>
-                        <li><a href="about.html">Contact Us</a></li>
+                        <li><a href="/about.html">Contact Us</a></li>
                         <li><a href="#">Track Order</a></li>
-                        <li><a href="about.html">About us</a></li>
+                        <li><a href="/about.html">About us</a></li>
                         <li><a href="#">Shipping Information</a></li>
                     </ul>
                 </div>
