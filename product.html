@@ -18,8 +18,8 @@
 
             <div class="left-url-item">
                 <ul>
-                    <li><a href="#">MEN</a></li>
-                    <li><a href="#">WOMEN</a></li>
+                   <li><a class="wishlist" href="#">MEN</a></li>
+                    <li><a class="wishlist" href="#">WOMEN</a></li>
                 </ul>
             </div>
 
@@ -31,31 +31,40 @@
 
             <div class="right-items">
                 <ul>
-                    <li><img src="./assets/account-icon.svg" alt="account-icon for rainy days"></li>
-                    <li><img src="./assets/wishlist-icon.svg" alt="wishlist-icon for rainy days"></li>
-                    <li><img src="./assets/checkout-bag.svg" width="38px" height="38px" alt="checkout-icon for rainy days"></li>
+                     <li ><img class="wishlist" src="./assets/account-icon.svg" alt="account-icon for rainy days"></li>
+                    <li ><img class="wishlist" src="./assets/wishlist-icon.svg" alt="wishlist-icon for rainy days"></li>
+                        <li><img class="wishlist" src="./assets/checkout-bag.svg" width="38px" height="38px" alt="checkout-icon for rainy days"></li>
+                    </ul>
                 </ul>
                 
             </div>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+             <div id="menuToggle">
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+              <a href="./index.html"><li>Home</li></a>
+              <a href="./cart.html"><li>Cart</li></a>
+              <a href="./about.html"><li>About</li></a>
+            </ul>
+          </div>
         </nav>
     </header>
     <section class="container">
         
         <div class="left-container">
             <p class="breadcrumb">Home / Men / Jackets / Orange Jacket</p>
-            <img src="./assets/product-pics/RainyDays_Jacket1 3.svg"  alt=" RainyDays_Jacket1">
+            <img class="product-image" src=""  alt=" RainyDays_Jacket1">
         </div>
 
         <div class="right-container">
             <div class="price-brand">
                 <h1>BRAND</h1>
-                <p>Orange Jacket</p>
-                <h3>$ 119</h3>
+                <p class="product-title">Orange Jacket</p>
+                <h3 class="product-price">$ 119</h3>
             </div>
             <div class="size-chart">
                 <p>SELECT SIZE</p>
@@ -161,9 +170,9 @@
             <div class="list2">
                 <h1>NEED HELP?</h1>
                 <ul>
-                    <li><a href="about.html">Contact Us</a></li>
+                    <li><a href="/about.html">Contact Us</a></li>
                     <li><a href="#">Track Order</a></li>
-                    <li><a href="about.html">About us</a></li>
+                    <li><a href="/about.html">About us</a></li>
                     <li><a href="#">Shipping Information</a></li>
                 </ul>
             </div>
@@ -192,5 +201,6 @@
 
         </div>
     </footer>
+    <script src="product.js"></script>
 </body>
 </html>
