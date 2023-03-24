@@ -5,7 +5,7 @@ function validateForm() {
     let p = document.forms["myForm"]["fphone"].value;
   
       var valEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g;
-      var valPhone = /^\d{10}$/; 
+      var valPhone = /^\d{8}$/; 
     if (n == "") {
       document.forms["myForm"]["fname"].style.borderColor = "red";
       alert("Name must be filled out!");
