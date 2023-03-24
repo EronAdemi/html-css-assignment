@@ -111,6 +111,7 @@ const products = [
   
     const checkoutImage = document.createElement("img");
     checkoutImage.src = "./assets/checkout-bag.svg";
+    checkoutImage.alt = "Checkout bag icon"
   
     const itemDetails = document.createElement("div");
     itemDetails.className = "item-details";
