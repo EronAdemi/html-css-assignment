@@ -90,7 +90,6 @@ const products = [
   clear.addEventListener("click", clearCart);
   
   const myProducts = products.map((product, index) => {
-    
     const cardContainer = document.createElement("div");
     cardContainer.className = "card-container";
     
@@ -105,6 +104,7 @@ const products = [
   
     const img = document.createElement("img");
     img.src = product.image;
+    img.alt = product.product;
   
     const checkoutBag = document.createElement("div");
     checkoutBag.className = "checkout-bag";

@@ -1,5 +1,4 @@
 const cartItems = JSON.parse(localStorage.getItem("cart"));
-console.log(JSON.parse(localStorage.getItem("cart")));
 
 const rightWrapper = document.querySelector(".right-wrapper");
 
@@ -31,6 +30,7 @@ cartItems.map((item) => {
   imageContainer.className = "image-container";
   const productImage = document.createElement("img");
   productImage.src = item.image;
+  productImage.alt = item.product;
   productContainer.appendChild(imageContainer);
   imageContainer.appendChild(productImage);
 
