@@ -1,3 +1,5 @@
+/* <!-- Resource: shopping cart used on all pages, original by Vincy - Link in sourcelist --> */
+
 const products = [
     {
       id: 1,
