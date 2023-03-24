@@ -63,16 +63,16 @@
                     <p>Phone: +4788888888</p>
                 </div>
                 <div class="contact-us">
-                    <form >
+                    <form name="myForm" onsubmit="return validateForm()">
                         <label  type="text">Name:</label>
-                        <input required type="text" placeholder="Enter your name">
+                        <input name="fname"  type="text" placeholder="Enter your name">
                         <label type="text">Last Name:</label>
-                        <input required type="text" placeholder="Enter your last name">
+                        <input name="flastname" type="text" placeholder="Enter your last name">
                         <label type="email">Email:</label>
-                        <input required type="email" placeholder="Enter your E-mail">
+                        <input name="femail" type="text" placeholder="Enter your E-mail">
                         <label type="text">Phone:</label>
-                        <input required type="number" placeholder="Enter your phone">
-                        <button>Submit</button>
+                        <input name="fphone" type="text" placeholder="Enter your phone">
+                        <button  type="submit">Submit</button>
                     </form>
                 </div>
             </div>
@@ -123,6 +123,6 @@
 
             </div>
         </footer>
-
+<script src="about.js"></script>
     </body>
 </html>
