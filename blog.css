@@ -1,0 +1,19 @@
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #posts {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  article {
+    padding: 20px;
+    width: 30%;
+    cursor: pointer;
+  }
+  
